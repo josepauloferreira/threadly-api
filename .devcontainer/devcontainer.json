@@ -1,0 +1,21 @@
+{
+    "name": "Threadly - Java 21",
+    "image": "mcr.microsoft.com/devcontainers/java:3-21-trixie",
+
+    "forwardPorts": [8080],
+
+    "features": {
+        "ghcr.io/devcontainers/features/docker-in-docker:4": {
+            "moby": false
+        },
+        "ghcr.io/devcontainers/features/git-lfs:1": {}
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "EditorConfig.EditorConfig"
+            ]
+        }
+    }
+}
