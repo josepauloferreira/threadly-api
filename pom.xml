@@ -110,16 +110,6 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.flywaydb</groupId>
-                <artifactId>flyway-maven-plugin</artifactId>
-                <configuration>
-                    <url>jdbc:mysql://localhost:3306/forumhub_api</url>
-                    <user>admin</user>
-                    <password>123</password>
-                    <cleanDisabled>false</cleanDisabled>
-                </configuration>
-            </plugin>
-            <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
